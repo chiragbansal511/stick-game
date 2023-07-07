@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stick Game </title>
+
+    link(rel="stylesheet", href="/static/style.css")
+</head>
+<body>
+  <div id="game_name">Stick Game</div>
+  <div id="rule">
+    <ul>
+      <li> <h2>Rules of the Game</h2></li>
+      <li>There are 15 Sticks in Total</li>
+      <li>First you choose 1-4 Sticks</li>
+      <li>Then computer Choose 1-4 Sticks</li>
+      <li>The one Choosing Last Sticks Win</li>
+    </ul>
+  </div>
+  
+  <button  id="rule_but">Rule</button>
+  <div id="game">
+    <button id="stick1" class="clicks" onclick="stick_click()"></button> 
+    <button id="stick2" class="clicks" onclick="stick_click()"></button>
+    <button id="stick3" class="clicks" onclick="stick_click()"></button>
+    <button id="stick4" class="clicks" onclick="stick_click()"></button>
+    <button id="stick5" class="clicks" onclick="stick_click()"></button>
+    <button id="stick6" class="clicks" onclick="stick_click()"></button>
+    <button id="stick7" class="clicks" onclick="stick_click()"></button>
+    <button id="stick8" class="clicks" onclick="stick_click()"></button>
+    <button id="stick9" class="clicks" onclick="stick_click()"></button>
+    <button id="stick10" class="clicks" onclick="stick_click()"></button>
+    <button id="stick11" class="clicks" onclick="stick_click()"></button>
+    <button id="stick12" class="clicks" onclick="stick_click()"></button>
+    <button id="stick13" class="clicks" onclick="stick_click()"></button>
+    <button id="stick14" class="clicks" onclick="stick_click()"></button>
+    <button id="stick15" class="clicks" onclick="stick_click()"></button>
+    <button id="start" onclick = "start_game()">Start</button>
+    <div id="result">You Loose</div>
+  </div>
+  <button id="turn" onclick="computer_call()">Your Turn</button>
+   script
+    include ../static/index.js
+</body>
+</html>
