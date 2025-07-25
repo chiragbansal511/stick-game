@@ -38,10 +38,7 @@ stick-game/
 
 ## Data Flow Model
 
-```
 ![Data Flow](architecture/image.png)
-
-```
 
 ### Data Flow Components
 
@@ -58,10 +55,7 @@ stick-game/
 
 ## User Interface
 
-```
 ![UI_design](UI_Design/image.png)
-
-```
 
 ## How to Use and Play
 
